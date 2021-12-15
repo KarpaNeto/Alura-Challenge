@@ -1,19 +1,19 @@
 body {
     background-color: #051D3B;
-    font-family: 'Inter', sans-serif;  
-    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 main {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 2.5fr 1fr;
-    
+
 }
 
 input::placeholder {
     color: rgba(255, 255, 255, .64);
-    
+
 }
 
 .label {
@@ -49,5 +49,3 @@ input::placeholder {
 .btn-highlight:focus {
     background: rgba(80, 129, 251, 0.24);
 }
-
-

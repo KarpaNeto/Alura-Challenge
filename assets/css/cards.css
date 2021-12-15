@@ -1,3 +1,6 @@
+:root {
+    --border-color: #6BD1FF;
+}
 .cards {
     display: flex;
     flex-direction: column;
@@ -10,7 +13,7 @@
 }
 .card-box {
     height: 366px;
-    background: #6BD1FF;
+    background-color: var(--border-color);
     border-radius: 8px;
     padding: 2rem;
 }

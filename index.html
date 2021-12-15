@@ -45,7 +45,7 @@
 
         <section class="cards">
             <div class="card-wrapper">
-                <div class="card-box">
+                <div class="card-box" id="border">
                     <div class="card-inside">
                         <div class="card-ellipse">
                             <img src="./assets/img/Ellipse 1.png" alt="">
@@ -79,17 +79,19 @@
                     <option value="html">HTML</option>
                     <option value="css">CSS</option>
                 </select>
-                <select class="border-colors">
-                    <option class="option-1"></option>
-                    <option class="option-2"></option>
-                    <option class="option-3"></option>
-                    <option class="option-4"></option>
+                <select class="border-colors" id="setcolor" onchange="color(this.value)">
+                    <option id="amarelo" value="#6BD1FF">teste</option>
+                    <option id="azul" value="#6BD1FF"></option>
+                    <option id="verde" value="#9AFF6B">2</option>
+                    <option id="amarelo" value="#fff06b">3</option>
+                    <option id="laranja" value="#ff6b6b">4</option>
                 </select>
                 <button class="btn-save">Salvar Projeto</button>
             </div>
         </section>
+        <script type="text/javascript" src="change-color.js"></script>
     </main>
-    <script src="change-color.js"></script>
+    
     <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
 </body>
