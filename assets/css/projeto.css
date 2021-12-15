@@ -1,21 +1,14 @@
-.projeto {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 25vw;
-}
 
 .projeto__container {
     display: flex;
     flex-direction: column;
-    margin-left: 2.5rem;
+    margin-right: 2rem;
+   
 }
 
 .projeto__inputs {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
-    
 }
 
 .input__nome {
@@ -40,7 +33,6 @@
 
 
 .linguagem {
-    margin-right: 2rem;
     height: 56px;
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
@@ -53,7 +45,6 @@
 .border-colors {
     -webkit-appearance: none;
     -moz-appearance: none;
-    margin-right: 2rem;
     height: 56px;
     background-color: transparent;
     border-radius: 8px;
@@ -80,7 +71,6 @@
 
 .btn-save {
     height: 56px;
-    margin-right: 2rem;
     margin-top: 3rem;
     outline: none;
     border: 0 none;

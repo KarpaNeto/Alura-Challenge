@@ -1,31 +1,37 @@
 .cards {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   
 }
 
 .card__wrapper {
-    width: 752px;
+    width: 50vw;
+   
+    
+
+}
+.card__box {
     height: 366px;
-    background: #6BD1FF; 
+    background: #6BD1FF;
     border-radius: 8px;
-    position: relative;  
-    padding: 2rem; 
+    padding: 2rem;
 }
 
 .card__inside {
-    background-color: #141414; 
+    background-color: #141414;
     height: 100%;
     border-radius: 8px;
-   border: 1px solid #141414; 
-    
+    border: 1px solid #141414;
+
 }
 
 .card__ellipse {
     padding: 1rem 0 0rem 1rem;
 }
 
-.card__ellipse img{
+.card__ellipse img {
     padding: .5rem .5rem 0 0;
 }
 
@@ -35,7 +41,7 @@
     box-sizing: border-box;
     white-space: pre-wrap;
     max-height: 234px;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
 
 .preview::-webkit-scrollbar {
@@ -50,7 +56,7 @@
 }
 
 .btn-highlight {
-    width: 100%;
+    width: 50vw;
     padding: 1rem;
     margin-top: 2rem;
     background-color: #5081FB14;
@@ -73,6 +79,3 @@
 .btn-highlight:focus {
     background: rgba(80, 129, 251, 0.24);
 }
-
-
-

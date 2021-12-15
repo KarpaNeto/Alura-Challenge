@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem;
+    background-color: #051D3B;
+}
+
+.header-logo img {
+    width: 9rem;
+    height: 2.1rem;
+}
+
+.header-input {
+    background: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.16);
+    font-size: 1.3rem;
+    margin-right: 4rem;
+    width: 50vw;
+    border: 0 none;
+    outline: none;
+    border-radius: .5rem;
+    padding: 1rem;   
+}
+
+.user-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.photo-profile {
+    border-radius: 50px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}

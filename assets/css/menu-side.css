@@ -1,0 +1,23 @@
+.menu__lateral {
+    display: flex;
+    flex-direction: column;
+    min-width: 20vw;
+    height: 100vh; 
+}
+.menu__lista {
+    position: absolute;
+    margin-left: 2rem;
+}
+
+.menu__link {
+    margin-left: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}

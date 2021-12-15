@@ -13,27 +13,11 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/index.css">
-
-    <link rel="stylesheet" href="./assets/css/header/header.css">
-    <link rel="stylesheet" href="./assets/css/header/header-container.css">
-
-    <link rel="stylesheet" href="./assets/css/header/header-forms.css">
-    <link rel="stylesheet" href="./assets/css/header/header-user.css">
-    <link rel="stylesheet" href="./assets/css/header/header-logo.css">
-
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-items.css">
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-lateral.css">
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-lista.css">
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-logo.css">
-    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-titulo.css">
-
-    <link rel="stylesheet" href="./assets/css/cards/cards.css">
-
-    <link rel="stylesheet" href="./assets/css/projeto/projeto.css">
-    <link rel="stylesheet" href="rainbow.css">
-
-
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/menu-side.css">
+    <link rel="stylesheet" href="./assets/css/cards.css">
+    <link rel="stylesheet" href="./assets/css/projeto.css">
+    <link rel="stylesheet" href="./assets/css/rainbow.css">
 
     <title>ALURA DEV</title>
 </head>
@@ -41,16 +25,16 @@
 <body spellcheck="false">
 
     <header class="header">
-        <div class="header__container">
-            <a href="#" class="header__logo"><img src="./assets/img/logo.png" alt=""></a>
-            <div class="form__wrapper">
-                <form class="header__forms">
-                    <input class="form__input" type="search" placeholder="Busque por algo" aria-label="Search">
-                </form>
-            </div>
-            <div class="user__button">
-                <a class="username"><img src="./assets/img/photo-user.png" alt="">Harry</a>
-            </div>
+        <div class="header-container">
+            <a href="#" class="header-logo"><img src="./assets/img/logo.png" alt=""></a>
+
+            <form class="header-forms">
+                <input class="header-input" type="search" placeholder="Busque por algo" aria-label="Search">
+            </form>
+
+            <button class="user-btn">
+                <a class="username"><img class="photo-profile" src="./assets/img/photo-user.png" alt="">Karpa</a>
+            </button>
         </div>
     </header>
     <main>
@@ -68,21 +52,23 @@
         <section class="cards">
 
             <div class="card__wrapper">
-                <div class="card__inside">
-                    <div class="card__ellipse">
-                        <img src="./assets/img/Ellipse 1.png" alt="">
-                        <img src="./assets/img/Ellipse 2.png" alt="">
-                        <img src="./assets/img/Ellipse 3.png" alt="">
-                    </div>
-                    <div class="code-area">
-                        <pre><code class="preview hljs" contenteditable="true" aria-label="editor"></code></pre>
+                <div class="card__box">
+                    <div class="card__inside">
+                        <div class="card__ellipse">
+                            <img src="./assets/img/Ellipse 1.png" alt="">
+                            <img src="./assets/img/Ellipse 2.png" alt="">
+                            <img src="./assets/img/Ellipse 3.png" alt="">
+                        </div>
+                        <div class="code-area">
+                            <pre><code class="preview hljs" contenteditable="true" aria-label="editor"></code></pre>
+                        </div>
                     </div>
                 </div>
             </div>
-                <button class="btn-highlight">
-                    <h2 class="btn-highlight__text">Vizualizar com o Hightlight</h2>
-                </button>
-           
+            <button class="btn-highlight">
+                <h2 class="btn-highlight__text">Vizualizar com o Hightlight</h2>
+            </button>
+
 
         </section>
 
