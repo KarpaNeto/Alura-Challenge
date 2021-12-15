@@ -1,23 +1,32 @@
-.menu__lateral {
+.menu-side {
     display: flex;
     flex-direction: column;
     min-width: 20vw;
-    height: 100vh; 
+    height: 100vh;
 }
-.menu__lista {
+
+.menu-list {
     position: absolute;
     margin-left: 2rem;
 }
 
-.menu__link {
+.menu-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.menu-link {
     margin-left: 1rem;
     width: 100%;
     text-decoration: none;
     color: #fff;
 }
 
-.menu__items {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+#comunidade {
+    opacity: .56;
+}
+
+#comunidade:hover {
+    opacity: 1;
 }

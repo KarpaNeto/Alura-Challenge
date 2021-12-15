@@ -3,23 +3,19 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
-   
 }
 
-.card__wrapper {
+.card-wrapper {
     width: 50vw;
-   
-    
-
 }
-.card__box {
+.card-box {
     height: 366px;
     background: #6BD1FF;
     border-radius: 8px;
     padding: 2rem;
 }
 
-.card__inside {
+.card-inside {
     background-color: #141414;
     height: 100%;
     border-radius: 8px;
@@ -27,11 +23,11 @@
 
 }
 
-.card__ellipse {
+.card-ellipse {
     padding: 1rem 0 0rem 1rem;
 }
 
-.card__ellipse img {
+.card-ellipse img {
     padding: .5rem .5rem 0 0;
 }
 
@@ -55,27 +51,3 @@
     outline: 0;
 }
 
-.btn-highlight {
-    width: 50vw;
-    padding: 1rem;
-    margin-top: 2rem;
-    background-color: #5081FB14;
-    text-decoration: none;
-    border-radius: 8px;
-    outline: none;
-    border: 4px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.btn-highlight:active {
-    background: rgba(80, 129, 251, 0.24);
-}
-
-.btn-highlight:hover {
-    background: rgba(80, 129, 251, 0.16);
-}
-
-.btn-highlight:focus {
-    background: rgba(80, 129, 251, 0.24);
-}

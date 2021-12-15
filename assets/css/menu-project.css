@@ -1,17 +1,15 @@
-
-.projeto__container {
+.mp-container {
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
-   
 }
 
-.projeto__inputs {
+.mp-inputs {
     display: flex;
     flex-direction: column;
 }
 
-.input__nome {
+.input-name {
     height: 2.625rem;
     padding: 0.875rem;
     border: 0 none;
@@ -21,7 +19,11 @@
     color: #fff;
 }
 
-.input__descricao {
+.input-name:hover {
+    background: rgba(255, 255, 255, 0.24);
+}
+
+.input-description {
     height: 4.125rem;
     padding: 0.875rem;
     border: 0 none;
@@ -31,6 +33,9 @@
     color: #fff;
 }
 
+.input-description:hover {
+    background: rgba(255, 255, 255, 0.24);
+}
 
 .linguagem {
     height: 56px;
@@ -40,6 +45,10 @@
     padding: .875rem;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.64)
+}
+
+.linguagem:hover {
+    background: rgba(255, 255, 255, 0.24);
 }
 
 .border-colors {
@@ -82,6 +91,3 @@
 .btn-save:hover {
     background: #7BA4FC;
 }
-
-
-

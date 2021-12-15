@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/menu-side.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
-    <link rel="stylesheet" href="./assets/css/projeto.css">
+    <link rel="stylesheet" href="./assets/css/menu-project.css">
     <link rel="stylesheet" href="./assets/css/rainbow.css">
 
     <title>ALURA DEV</title>
@@ -38,23 +38,24 @@
         </div>
     </header>
     <main>
-        <nav class="menu__lateral">
-            <ul class="menu__lista">
+        <nav class="menu-side">
+            <ul class="menu-list">
                 <h2 class="label">Menu</h2>
-                <li class="menu__items"><img class="menu__logo" src="./assets/img/editor-codigo.png" alt=""><a
-                        class="menu__link" href="#">Editor de Código</a></li>
-                <li class="menu__items"><img class="menu__logo" src="./assets/img/comunidade-non-clicked.png" alt=""><a
-                        class="menu__link" href="#">Comunidade</a></li>
+                <li class="menu-items" id="editor"><img class="menu-logo" src="./assets/img/editor-codigo.png" alt=""><a
+                        class="menu-link" href="#">Editor de Código</a></li>
+                <li class="menu-items" id="comunidade"><img class="menu-logo"
+                        src="./assets/img/comunidade-non-clicked.png" alt=""><a class="menu-link"
+                        href="#">Comunidade</a></li>
             </ul>
         </nav>
 
 
         <section class="cards">
 
-            <div class="card__wrapper">
-                <div class="card__box">
-                    <div class="card__inside">
-                        <div class="card__ellipse">
+            <div class="card-wrapper">
+                <div class="card-box">
+                    <div class="card-inside">
+                        <div class="card-ellipse">
                             <img src="./assets/img/Ellipse 1.png" alt="">
                             <img src="./assets/img/Ellipse 2.png" alt="">
                             <img src="./assets/img/Ellipse 3.png" alt="">
@@ -72,14 +73,14 @@
 
         </section>
 
-        <section class="projeto">
-            <div class="projeto__container">
+        <section class="menu-project">
+            <div class="mp-container">
                 <label class="label">Seu projeto</label>
 
-                <form class="projeto__inputs">
-                    <input class="input__nome" type="text" placeholder="Nome do seu projeto" aria-label="Search">
+                <form class="mp-inputs">
+                    <input class="input-name" type="text" placeholder="Nome do seu projeto" aria-label="Search">
 
-                    <input class="input__descricao" type="text" placeholder="Descrição do seu projeto"
+                    <input class="input-description" type="text" placeholder="Descrição do seu projeto"
                         aria-label="Search">
                 </form>
 

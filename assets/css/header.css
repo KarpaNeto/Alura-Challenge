@@ -34,6 +34,12 @@
     background: transparent;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.user-btn:hover {
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .username {
