@@ -75,16 +75,15 @@
                 <label for="linguagem" class="label">Personalização</label>
 
                 <select name="linguagem" id="linguagem" class="linguagem">
-                    <option value="javascript">JavaScript</option>
+                    <option id="teste" value="javascript">JavaScript</option>
                     <option value="html">HTML</option>
                     <option value="css">CSS</option>
                 </select>
-                <select class="border-colors" id="setcolor" onchange="color(this.value)">
-                    <option id="amarelo" value="#6BD1FF">teste</option>
+                <select class="border-colors" id="select" onchange="colorBox(this.value), colorSelect(this.value)">
                     <option id="azul" value="#6BD1FF"></option>
-                    <option id="verde" value="#9AFF6B">2</option>
-                    <option id="amarelo" value="#fff06b">3</option>
-                    <option id="laranja" value="#ff6b6b">4</option>
+                    <option id="verde" value="#9AFF6B"></option>
+                    <option id="amarelo" value="#fff06b"></option>
+                    <option id="laranja" value="#ff6b6b"></option>
                 </select>
                 <button class="btn-save">Salvar Projeto</button>
             </div>
