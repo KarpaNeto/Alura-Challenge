@@ -37,6 +37,12 @@
     background: rgba(255, 255, 255, 0.24);
 }
 
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .linguagem {
     height: 56px;
     background: rgba(255, 255, 255, 0.16);
@@ -65,8 +71,6 @@
     color: #fff;
     outline: none;
 }
-
-
 
 option {
     background: #2D415B;
@@ -102,3 +106,5 @@ option {
 .btn-save:hover {
     background: #7BA4FC;
 }
+
+

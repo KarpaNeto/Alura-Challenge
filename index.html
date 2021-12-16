@@ -9,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/menu-side.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
     <link rel="stylesheet" href="./assets/css/menu-project.css">
     <link rel="stylesheet" href="./assets/css/rainbow.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/table.css">
+
     <title>ALURA DEV</title>
 </head>
 
@@ -26,9 +30,24 @@
             <form class="header-forms">
                 <input class="header-input" type="search" placeholder="Busque por algo" aria-label="Search">
             </form>
+
             <button class="user-btn">
                 <a class="username"><img class="photo-profile" src="./assets/img/photo-user.png" alt="">Karpa</a>
             </button>
+            <div class="mobile-icons">
+                <div class="mobile-lupa" id="divlupa" onclick="openlupa()">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="mobile-iconbar" id="divmenu" onclick="openSideMenu()">
+                    <i class="fas fa-bars" id="iconmenu"></i>
+                </div>
+
+                <div class="mobile-x" id="divx" onclick="closeSideMenu()">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
         </div>
     </header>
     <main>
@@ -73,18 +92,21 @@
                         aria-label="Search">
                 </form>
                 <label for="linguagem" class="label">Personalização</label>
+                <div class="p-container">
 
-                <select name="linguagem" id="linguagem" class="linguagem">
-                    <option id="teste" value="javascript">JavaScript</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                </select>
-                <select class="border-colors" id="select" onchange="colorBox(this.value), colorSelect(this.value)">
-                    <option id="azul" value="#6BD1FF"></option>
-                    <option id="verde" value="#9AFF6B"></option>
-                    <option id="amarelo" value="#fff06b"></option>
-                    <option id="laranja" value="#ff6b6b"></option>
-                </select>
+                    <select name="linguagem" id="linguagem" class="linguagem">
+                        <option id="teste" value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </select>
+                    <select class="border-colors" id="select" onchange="colorBox(this.value), colorSelect(this.value)">
+                        <option id="azul" value="#6BD1FF"></option>
+                        <option id="verde" value="#9AFF6B"></option>
+                        <option id="amarelo" value="#fff06b"></option>
+                        <option id="laranja" value="#ff6b6b"></option>
+                    </select>
+                </div>
+
                 <button class="btn-save">Salvar Projeto</button>
             </div>
         </section>

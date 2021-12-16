@@ -54,3 +54,15 @@
     height: 2rem;
     margin-right: .5rem;
 }
+
+.mobile-icons {
+    display: none;
+}
+
+.mobile-lupa {
+    display: none;
+}
+
+.mobile-x {
+    display: none;
+}
