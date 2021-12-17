@@ -2,6 +2,7 @@ body {
     background-color: #051D3B;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    height: 100vh;
 }
 
 main {

@@ -44,9 +44,7 @@
         display: block;
         visibility: visible;
     }
-
-    
-
+ 
     .menu-list {
         padding: 1.5rem 0;
         top: 0;
@@ -63,8 +61,6 @@
         border-left-width: 0;
         border-color: rgba(255, 255, 255, .08);
     }
-
-   
 
     .menu-list>.label {
         display: none;
@@ -115,7 +111,21 @@
         margin-bottom: 2.5rem;
     }
 
+}
 
 
+@media screen and (max-width: 768px) {
+    
+    .header-input {
+        display: none;
+    }
 
+    .menu-side {
+        height: 80vh;
+    }
+
+    #divlupa {
+        visibility: visible;
+        margin-right: 2.25rem;
+    }
 }
