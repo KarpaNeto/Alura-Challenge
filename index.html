@@ -35,19 +35,18 @@
                 <a class="username"><img class="photo-profile" src="./assets/img/photo-user.png" alt="">Karpa</a>
             </button>
             <div class="mobile-icons">
-                <div class="mobile-lupa" id="divlupa" onclick="openlupa()">
+                <div class="mobile-lupa" id="divlupa">
                     <i class="fas fa-search"></i>
                 </div>
 
-                <div class="mobile-iconbar" id="divmenu" onclick="openSideMenu()">
+                <div class="mobile-iconbar" id="divmenu">
                     <i class="fas fa-bars" id="iconmenu"></i>
                 </div>
 
-                <div class="mobile-x" id="divx" onclick="closeSideMenu()">
+                <div class="mobile-x" id="divx">
                     <i class="fas fa-times"></i>
                 </div>
             </div>
-
         </div>
     </header>
     <main>
@@ -59,6 +58,9 @@
                 <li class="menu-items" id="comunidade"><img class="menu-logo"
                         src="./assets/img/comunidade-non-clicked.png" alt=""><a class="menu-link"
                         href="#">Comunidade</a></li>
+                <div class="user-btn-mobile" id="user-mobile">
+                    <a class="username"><img class="photo-profile" src="./assets/img/photo-user.png" alt="">Karpa</a>
+                </div>
             </ul>
         </nav>
 
@@ -112,6 +114,9 @@
         </section>
 
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/side-bar.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/change-color.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>

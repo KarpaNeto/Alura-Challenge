@@ -54,3 +54,14 @@ i {
     color: #fff;
 }
 
+#divx {
+    visibility: hidden;
+}
+
+#divlupa{
+    visibility: hidden;
+}
+
+#divmenu {
+    visibility: hidden;
+}

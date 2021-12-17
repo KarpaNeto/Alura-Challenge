@@ -2,6 +2,7 @@
     main {
         display: block;
         padding: .5rem 2rem;
+        
     }
 
     .mobile-icons {
@@ -12,29 +13,69 @@
         margin: 0;
 
     }
-
     .user-btn {
-        display: none;
+       display: none; 
+    }
+
+    .user-btn-mobile {
+        display: block;
+        margin-top: 2rem;
+        margin-left: .5rem;
     }
 
     .menu-side {
         display: fixed;
         position: absolute;
-        right: 0;
-        background-color: #fff;
-        padding-right: 2rem;
+        right: -1000px;
+        background-color: #2D415B;
         height: 100vh;
         width: 254px;
+        border-radius: 8px 0 0 8px;
+        transition: .3s ;
+        visibility: hidden;
     }
 
-    .menu-list {
-        margin: 0;
-        padding: 0;
-        top: 0;
-        width: 100%;
-        min-width: 100px;
-        background-color: bisque;
+   .menu-side.active {
+        right: 0;
+        visibility: visible;
+    }
 
+    #divmenu {
+        display: block;
+        visibility: visible;
+    }
+
+    
+
+    .menu-list {
+        padding: 1.5rem 0;
+        top: 0;
+        min-width: 100px;
+        border-radius: 8px 0 0 0;
+    }
+
+    #comunidade {
+        padding-bottom: 2rem;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-left-width: 0;
+        border-color: rgba(255, 255, 255, .08);
+    }
+
+   
+
+    .menu-list>.label {
+        display: none;
+    }
+
+    i {
+        font-size: 24px;
+    }
+
+    #divmenu {
+        cursor: pointer;
     }
 
     .cards {

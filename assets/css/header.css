@@ -42,6 +42,8 @@
     background: rgba(255, 255, 255, 0.08);
 }
 
+
+
 .username {
     display: flex;
     align-items: center;
@@ -56,13 +58,5 @@
 }
 
 .mobile-icons {
-    display: none;
-}
-
-.mobile-lupa {
-    display: none;
-}
-
-.mobile-x {
     display: none;
 }
